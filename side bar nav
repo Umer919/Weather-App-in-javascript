@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div id="main">
+            <h2>Sidenav PushExample</h2>
+            <p>Click on the Element 
+ Below to Open the Side Navigation Menu,
+and push this content to the right. 
+Notice that we added a black see through bg color 
+to the body when it is opened.</p>
+<span style="font-size: 30px;cursor: pointer;"onclick="openNav()">&#9776; Open</span>
+
+        </div>
+    </body>
+</html>
